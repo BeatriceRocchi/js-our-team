@@ -40,11 +40,18 @@ for (let member of teamMembers) {
   console.log(member.img);
 
   cardWrapper.innerHTML += `
-  <div>
-    <img src="${member.img}" alt="${member.name}">
-    <div>${member.name}</div>
-    <div>${member.role}</div>
-    <hr>
-  </div>
+  <div class="card">
+          <div class="upper-card">
+            <img
+              src="${member.img}"
+              alt="${member.name}"
+            />
+          </div>
+
+          <div class="lower-card">
+            <div class="name">${member.name}</div>
+            <div class="role">${member.role}</div>
+          </div>
+        </div>
   `;
 }
