@@ -41,17 +41,17 @@ for (let member of teamMembers) {
 
   cardWrapper.innerHTML += `
   <div class="card">
-          <div class="upper-card">
-            <img
-              src="${member.img}"
-              alt="${member.name}"
-            />
-          </div>
+    <div class="upper-card">
+      <img
+        src="${member.img}"
+        alt="${member.name}"
+      />
+    </div>
 
-          <div class="lower-card">
-            <div class="name">${member.name}</div>
-            <div class="role">${member.role}</div>
-          </div>
-        </div>
+    <div class="lower-card">
+      <div class="name">${member.name}</div>
+      <div class="role">${member.role}</div>
+    </div>
+  </div>
   `;
 }
