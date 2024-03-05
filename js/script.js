@@ -1,4 +1,6 @@
 // Data
+const cardWrapper = document.querySelector(".card-wrapper");
+
 const teamMembers = [
   {
     name: "Wayne Barnett",
@@ -32,9 +34,17 @@ const teamMembers = [
   },
 ];
 
-for(let member of teamMembers){
+for (let member of teamMembers) {
   console.log(member.name);
   console.log(member.role);
   console.log(member.img);
-}
 
+  cardWrapper.innerHTML += `
+  <div>
+        <div>${member.img}</div>
+        <div>${member.name}</div>
+        <div>${member.role}</div>
+        <hr>
+      </div>
+  `;
+}
