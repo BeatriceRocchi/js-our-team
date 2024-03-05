@@ -23,3 +23,4 @@ Organizzare i singoli membri in card/schede
 3. Ciclare con un ciclo for of l'array di oggetti
 4. All'interno del ciclo for of, stampare in console tutte le proprietà
 5. Stampare in pagina le proprietà
+6. Graficare i contenuti come da screenshot

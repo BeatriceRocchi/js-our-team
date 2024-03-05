@@ -5,32 +5,32 @@ const teamMembers = [
   {
     name: "Wayne Barnett",
     role: "Founder & CEO",
-    img: "wayne-barnett-founder-ceo.jpg",
+    img: "./assets/img/wayne-barnett-founder-ceo.jpg",
   },
   {
     name: "Angela Caroll",
     role: "Chief Editor",
-    img: "angela-caroll-chief-editor.jpg",
+    img: "./assets/img/angela-caroll-chief-editor.jpg",
   },
   {
     name: "Walter Gordon",
     role: "Office Manager",
-    img: "walter-gordon-office-manager.jpg",
+    img: "./assets/img/walter-gordon-office-manager.jpg",
   },
   {
     name: "Angela Lopez",
     role: "Social Media Manager",
-    img: "angela-lopez-social-media-manager.jpg",
+    img: "./assets/img/angela-lopez-social-media-manager.jpg",
   },
   {
     name: "Scott Estrada",
     role: "Developer",
-    img: "scott-estrada-developer.jpg",
+    img: "./assets/img/scott-estrada-developer.jpg",
   },
   {
     name: "Barbara Ramos",
     role: "Graphic Designer",
-    img: "barbara-ramos-graphic-designer.jpg",
+    img: "./assets/img/barbara-ramos-graphic-designer.jpg",
   },
 ];
 
@@ -41,10 +41,10 @@ for (let member of teamMembers) {
 
   cardWrapper.innerHTML += `
   <div>
-        <div>${member.img}</div>
-        <div>${member.name}</div>
-        <div>${member.role}</div>
-        <hr>
-      </div>
+    <img src="${member.img}" alt="${member.name}">
+    <div>${member.name}</div>
+    <div>${member.role}</div>
+    <hr>
+  </div>
   `;
 }
