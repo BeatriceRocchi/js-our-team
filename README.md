@@ -21,5 +21,5 @@ Organizzare i singoli membri in card/schede
 1. Creare un array di oggetti in cui ogni oggetto è un membro del team
 2. Creare ogni oggetto con le proprietà nome, ruolo e foto
 3. Ciclare con un ciclo for of l'array di oggetti
-4. All'interno del ciclo for of, ciclare con un ciclo for in l'oggetto per stampare in console tutte le proprietà
+4. All'interno del ciclo for of, stampare in console tutte le proprietà
 5. Stampare in pagina le proprietà
